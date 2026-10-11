@@ -4,6 +4,7 @@ backend/__pycache__/
 backend/*.pyc
 backend/*.db
 backend/temp_*
+*.mp4
 backend/.env
 
 # Node
