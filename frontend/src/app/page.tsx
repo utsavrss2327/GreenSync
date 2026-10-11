@@ -166,6 +166,34 @@ export default function Home() {
             During months 1–6, young sapling canopies are small, exposing large amounts of bare soil. Standard NDVI is heavily skewed by soil reflectance and produces false negative survival audits. GreenSync algorithmically uses <strong>MSAVI2 (Modified Soil-Adjusted Vegetation Index)</strong> with a dynamic L-factor during early stages, transitioning automatically to standard <strong>NDVI</strong> at 12 months once canopy closure occurs.
           </p>
         </div>
+
+        {/* Lower-Third Graphic: Hackathon & Team Submission Banner */}
+        <div className="mt-8 p-4 rounded-2xl bg-gray-900/90 border-2 border-emerald-500/50 shadow-2xl backdrop-blur-xl flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-sans">
+          <div className="flex items-center gap-2.5">
+            <span className="w-3 h-3 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
+            <div>
+              <span className="font-extrabold text-white text-sm tracking-wide block">
+                Bharat Builds Environmental Hacks
+              </span>
+              <a 
+                href="https://www.wemakedevs.org/aws/env" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="text-cyan-400 underline font-mono text-[11px]"
+              >
+                https://www.wemakedevs.org/aws/env
+              </a>
+            </div>
+          </div>
+          <div className="flex items-center gap-3 font-mono text-xs">
+            <span className="px-3 py-1.5 rounded-xl bg-emerald-500/20 text-emerald-300 font-bold border border-emerald-500/40">
+              Team: Vampire.dev.lop
+            </span>
+            <span className="px-3 py-1.5 rounded-xl bg-gray-800 text-teal-200 border border-gray-700">
+              Utsav Raj Singh & Arushi Jain
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );
