@@ -93,3 +93,4 @@ Web portal available at: `http://localhost:3000`
 - [Progress (PROGRESS.md)](docs/PROGRESS.md): Hackathon timeline and development milestones.
 - [Deployment (DEPLOYMENT.md)](docs/DEPLOYMENT.md): Guide to running the project locally and in production.
 - [Defense QA (DEFENSE_QA.md)](docs/DEFENSE_QA.md): Anti-spoofing validation logic, scientific decisions, and judge Q&A.
+- [Project Demo Video](https://youtu.be/x7fIgQLVVTc): A YouTube overview of this project.
